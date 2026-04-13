@@ -104,7 +104,7 @@ const FAQ = () => {
                 <Container className="text-center">
                     <Card className="border-0 p-5 rounded-3xl text-white shadow-lg" style={{ backgroundColor: '#8B5CF6', borderRadius: '40px' }}>
                         <h2 className="fw-bold mb-3 text-white">Still have questions?</h2>
-                        <p className="mb-4 mx-auto opacity-75" style={{ maxWidth: '500px' }}>
+                        <p className="mb-4 mx-auto" style={{ maxWidth: '500px' }}>
                             If you cannot find the answer to your question in our FAQ, you can always contact us and we will answer you shortly.
                         </p>
                         <a href="/contact" className="btn btn-light rounded-pill px-5 py-3 fw-bold shadow-sm text-primary" style={{ border: 'none' }}>

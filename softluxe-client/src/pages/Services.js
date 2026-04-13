@@ -66,7 +66,7 @@ const Services = () => {
                                 <Row className="align-items-center g-0 h-100">
                                     <Col md={5} className="p-5 text-white position-relative z-1">
                                         <h3 className="display-6 fw-bold mb-3" style={{ fontSize: '2.25rem' }}>Dedicated <br />Support Team</h3>
-                                        <p className="mb-0 opacity-75" style={{ maxWidth: '350px', fontSize: '0.95rem' }}>
+                                        <p className="mb-0" style={{ maxWidth: '350px', fontSize: '0.95rem' }}>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                                             Morbi vel purus est.
                                         </p>
@@ -115,7 +115,7 @@ const Services = () => {
                                         <p className="mb-2 fw-bold" style={{ fontSize: '1rem', lineHeight: '1.4' }}>
                                             "This software helped our team work twice as fast. The automation feature saved us every week."
                                         </p>
-                                        <div className="small opacity-75">David Wilson</div>
+                                        <div className="small">David Wilson</div>
                                     </div>
                                 </div>
                             </div>

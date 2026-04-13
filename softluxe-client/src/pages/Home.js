@@ -123,7 +123,7 @@ const Home = () => {
                                     <div className="bg-primary-gradient rounded-xl p-4 h-100 text-white d-flex flex-column justify-content-between position-relative overflow-hidden">
                                         <div>
                                             <h3 className="fw-bold mb-3">View More</h3>
-                                            <p className="text-white-50 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <p className="text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                         <div className="text-end mt-4">
                                             <FaArrowRight className="display-6" />
@@ -228,7 +228,7 @@ const Home = () => {
                         <Row className="align-items-center">
                             <Col md={5}>
                                 <h3 className="fw-bold mb-3">Dedicated Support Team</h3>
-                                <p className="text-white-50 mb-0">
+                                <p className="text-white mb-0">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus est.
                                 </p>
                             </Col>
@@ -270,7 +270,7 @@ const Home = () => {
                                 <div className={`rounded-xl p-4 p-md-5 h-100 border ${item.purple ? 'bg-primary-gradient border-primary text-white' : 'bg-light-gray border-light'}`} style={{ minHeight: '220px' }}>
                                     <div className={`fw-bold display-6 mb-3 ${item.purple ? 'text-white' : 'text-primary'}`}>{item.step}</div>
                                     <h3 className="fw-bold mb-3">{item.title}</h3>
-                                    <p className={`${item.purple ? 'text-white-50' : 'text-muted'} mb-0`}>{item.desc}</p>
+                                    <p className={`${item.purple ? 'text-white' : 'text-muted'} mb-0`}>{item.desc}</p>
                                 </div>
                             </Col>
                         ))}
@@ -352,7 +352,7 @@ const Home = () => {
                                         <Row className="align-items-center g-4">
                                             <Col md={5}>
                                                 <h3 className="fw-bold mb-2">Enterprise Plan</h3>
-                                                <div className="display-4 fw-bold mb-4">$755<span className="fs-6 text-white-50 ms-1">/Month</span></div>
+                                                <div className="display-4 fw-bold mb-4">$755<span className="fs-6 text-white ms-1">/Month</span></div>
                                                 <Button variant="light" className="rounded-pill py-2 px-5 fw-bold text-primary">Choose Plan</Button>
                                             </Col>
                                             <Col md={7}>
@@ -418,7 +418,7 @@ const Home = () => {
                                 <div className="bg-primary-gradient rounded-xl p-4 shadow-lg position-absolute"
                                     style={{ bottom: '40px', left: '0', width: '80%', zIndex: 2 }}>
                                     <h4 className="fw-bold text-white mb-3">Powerful Work Integration</h4>
-                                    <p className="text-white-50 small mb-0">
+                                    <p className="text-white small mb-0">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus est.
                                     </p>
                                 </div>
